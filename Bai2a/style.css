@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    border: 2px solid black;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bai2 {
+    margin-bottom: 20px;
+}
+.text-header {
+    margin: 20px 0;
+}
+
+.bai2 p {
+    margin-top: 10px;
+}
+

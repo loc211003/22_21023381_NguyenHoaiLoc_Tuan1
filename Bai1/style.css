@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bai1 {
+    margin-left: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.title-header {
+    margin-bottom  : 20px;
+}
+
+.header  a {
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+.header a:nth-child(3){
+    border-right: none;
+}
+
+.about {
+    margin: 20px 0;
+}
+.about ul {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}

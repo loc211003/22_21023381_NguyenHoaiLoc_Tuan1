@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.slide1 {
+    width: 800px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.the-footer p {
+    margin: 10px 20px;
+}

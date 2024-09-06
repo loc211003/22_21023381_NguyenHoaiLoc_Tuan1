@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.index {
+    width: 1200px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.header {
+    height: 200px; 
+}
+.header ul {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.header ul a {
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+    color: black;
+}
+.header ul a:hover {
+    cursor: pointer;
+    color: white;
+    background: rgb(216, 112, 214);
+}
+
+.the-body p{
+    margin: 15px 0;
+}
+.about {
+    margin-left: 10px;
+}
+.about h1 {
+    margin-top: 30px;
+}
+.about h2 {
+    margin-bottom: 20px;
+}
+.about a {
+    color: blue;
+}
+.about p {
+    margin-left: 10px;
+}
+.about ul{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+
+.the-footer{
+    border-top: 2px solid gray;
+    margin-bottom: 15px;
+}
+.the-footer p{
+    margin-left: 10px;
+}

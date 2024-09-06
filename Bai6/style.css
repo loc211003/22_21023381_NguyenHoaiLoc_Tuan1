@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.col-25 {
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+.col-75 {
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+}
+
+.form1 {
+    width: 70%;
+    height: auto;
+    background-color: aqua;
+    margin: 10px auto;
+    font-weight: 500;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    
+}
+.custom-form {
+    margin-left: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h2 {
+    margin: 20px 0;
+}
+.header .text-header {
+    width: 200px;
+    margin: 0 auto;
+    text-shadow: -1px 0 black, 0 0px black, 1px 0 black, 0 2px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.header .text-header h1{
+    border: 2px solid black;
+    background-color: rgb(72, 72, 231);
+}
+
+label {
+    padding: 12px 12px 12px 8;
+    display: inline-block;
+}
+
+input[type=text], input[type=date],select, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+input[type=submit] {
+    background-color: #ccc;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 150px;
+    float: right;
+}
+hr {
+    border: 2px solid black;
+    margin: 10px 0;
+}
